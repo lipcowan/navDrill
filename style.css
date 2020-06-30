@@ -1,0 +1,59 @@
+header {
+    background-color: #0B1C51;
+}
+
+header h1 {
+    font-size: 48 px;
+    font-family:'Gochi Hand', cursive;
+    text-align: center;
+    color: #fff
+}
+
+header nav ul {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-left: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+    margin-right: 0;
+}
+
+header nav ul li a:visited {
+    color: #555;
+}
+
+header nav ul li a:hover {
+    color: #363;
+
+}
+
+@media all and (min-width: 600px){
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+header h1 {
+    margin: 14px 0;
+    padding-top: 0;
+}
+
+header nav {
+    margin-top: 8px;
+}
+
+
+
+}
